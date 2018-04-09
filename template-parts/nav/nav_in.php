@@ -1,6 +1,5 @@
 <?php
 
-
   $defaults = array(
       'theme_location'  => 'logged-in',
       'menu'            => '',
