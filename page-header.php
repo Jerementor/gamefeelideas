@@ -13,3 +13,14 @@ get_header();
   </div>
   <div class="w-col w-col-2"><img src="/wp-content/uploads/2018/04/jer3.jpg" width="139" class="jer_avatar"></div>
 </div>
+<?php 
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+
+		the_content();
+	
+	} // end while
+} // end if
+?>
+<?php get_footer(); ?>
