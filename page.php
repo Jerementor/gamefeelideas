@@ -1,14 +1,13 @@
 <?php 
 /**
- * The template for the index page
- *
+ * The template for page
  * 
  * @since 1.0
  */
 get_header(); 
 ?>
 
-<!-- Index.php -->
+<!-- Page.php -->
 <div class="section-20 section-light">
 <div class="w-container">
 <div class="jer_640">
@@ -22,8 +21,5 @@ if ( have_posts() ) {
 	} // end while
 } // end if
 ?>
-</div>
-</div>
-</div>
 
 <?php get_footer(); ?>
