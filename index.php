@@ -9,17 +9,14 @@ get_header();
 ?>
 
 <!-- Index.php -->
-
-<?php 
-if ( have_posts() ) {
-	while ( have_posts() ) {
-		the_post(); 
-
-		the_content();
-	
-	} // end while
-} // end if
-?>
-
+<ul>
+<?php if ( have_posts() ) : ?>
+	<?php while ( have_posts() ) : the_post(); ?>
+	    <li>
+   		    <?php the_title(sprintf('<a class="jer_post_link" href="%s" rel="bookmark">', esc_url(get_permalink() )), '</li>'); ?>
+        </li>
+    <?php endwhile; ?>
+<?php endif; ?>    		
+  </ul>            
 
 <?php get_footer(); ?>
