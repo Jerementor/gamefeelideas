@@ -261,6 +261,11 @@ blockquote {
   font-weight: 600;
 }
 
+.game_logo {
+  color: #0071a7;
+  font-weight: 400;
+}
+
 @media (max-width: 991px) {
   .section-20.section-light {
     display: block;
@@ -274,6 +279,9 @@ blockquote {
   .jer_640 {
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .jer_home_header {
+    margin-bottom: 20px;
   }
 }
 
@@ -292,5 +300,9 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .jer_home_header {
+    margin-bottom: 20px;
+    font-size: 1.444em;
   }
 }
