@@ -62,11 +62,6 @@ blockquote {
   color: #000;
 }
 
-.section-20.section-dark {
-  background-color: #000;
-  color: #fff;
-}
-
 .section-20.section-light {
   display: block;
   min-height: 100vh;
@@ -111,11 +106,6 @@ blockquote {
   border-width: 1px;
   border-color: #0071a7;
   color: #0071a7;
-}
-
-.form-block {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .jer_home_header {
@@ -171,10 +161,6 @@ blockquote {
   font-weight: 300;
 }
 
-.block-quote-2 {
-  border-left-width: 2px;
-}
-
 .text-span {
   color: #0071a7;
   font-weight: 400;
@@ -205,10 +191,6 @@ blockquote {
   margin-bottom: 40px;
 }
 
-.heading {
-  font-weight: 400;
-}
-
 .jer_post_link {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
@@ -222,6 +204,7 @@ blockquote {
 
 .jer_button {
   margin-right: 10px;
+  margin-bottom: 10px;
   border: 1px solid #c8d0f9;
   background-color: rgba(87, 117, 235, .03);
   -webkit-transition: background-color 200ms ease;
@@ -251,6 +234,30 @@ blockquote {
   background-color: #ff3500;
   color: #ffe0e0;
   text-align: center;
+}
+
+.jer_pricing_main {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fafafc;
+  text-align: center;
+}
+
+.jer_pricing_header {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #0071a7;
+}
+
+.jer_pricing_list {
+  margin-top: 19px;
+  margin-bottom: 40px;
+  list-style-type: none;
+}
+
+.jer_price {
+  font-weight: 600;
 }
 
 @media (max-width: 991px) {
