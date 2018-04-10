@@ -77,3 +77,12 @@ function gamefeelideas_widget_title($t)
 }
 
 
+function gamefeelideas_edd_empty_cart_redirect() {
+	$cart 		= function_exists( 'edd_get_cart_contents' ) ? edd_get_cart_contents() : false;
+	$redirect 	= site_url( 'join-community' ); // could be the URL to your shop
+	if ( function_exists( 'edd_is_checkout' ) && edd_is_checkout() && ! $cart ) {
+		wp_redirect( $redirect, 301 ); 
+		exit;
+	}
+}
+add_action( 'template_redirect', 'gamefeelideas_edd_empty_cart_redirect' );
