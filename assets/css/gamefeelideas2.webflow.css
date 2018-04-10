@@ -121,6 +121,7 @@ blockquote {
 }
 
 .image {
+  margin-top: -15px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
