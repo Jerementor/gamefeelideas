@@ -12,6 +12,23 @@ Tags: epic blog
 #edd_profile_address_fieldset{
     display: none;
 }
+in
+/*edd login*/
+input#edd_login_submit {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #c8d0f9;
+    background-color: rgba(87, 117, 235, .03);
+    -webkit-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+    color: #0071a7;
+    font-size: 14px;
+    font-weight: 400;    
+}
+
+input#edd_login_submit:hover{
+    background-color: rgba(87, 117, 235, .08);
+}
 
 .edd-submit.button.blue{
   width: 100%;

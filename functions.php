@@ -2,7 +2,7 @@
 //Loading in Scripts
 function gamefeelideas_enqueue_styles(){
     wp_enqueue_script('webflow-js', get_template_directory_uri() . '/assets/js/webflow.js', array('jquery'));
-     wp_enqueue_script('gamefeelideas_custom', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'));
+    // wp_enqueue_script('gamefeelideas_custom', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'));
     
     wp_enqueue_style("normalize",  get_template_directory_uri() . "/assets/css/normalize.css");
     wp_enqueue_style("webflow",  get_template_directory_uri() . "/assets/css/webflow.css");
