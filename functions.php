@@ -86,3 +86,10 @@ function gamefeelideas_edd_empty_cart_redirect() {
 	}
 }
 add_action( 'template_redirect', 'gamefeelideas_edd_empty_cart_redirect' );
+
+add_action('set_current_user', 'gamefeelideas_hide_admin_bar');
+function gamefeelideas_hide_admin_bar() {
+  if (!current_user_can('edit_posts')) {
+    show_admin_bar(false);
+  }
+}

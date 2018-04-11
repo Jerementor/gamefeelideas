@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Apr 10 2018 19:22:23 GMT+0000 (UTC)  -->
+<!--  Last Published: Tue Apr 10 2018 20:35:43 GMT+0000 (UTC)  -->
 <html data-wf-page="5acadfcd6519058dd251ac16" data-wf-site="5acadfcd65190549fb51ac15">
 <head>
   <meta charset="utf-8">
@@ -34,8 +34,9 @@
         <div class="w-form">
           <form id="email-form" name="email-form" data-name="Email Form" method="post" data-drip-embedded-form="209451262">
             <div class="w-row">
-              <div class="w-col w-col-6"><input type="text" class="jer_input w-input" maxlength="256" name="fields[email]" data-name="fields[email]" placeholder="Enter your email...." id="fields[email]" required=""></div>
-              <div class="w-col w-col-6"><input type="submit" value="Get Weekly Articles" data-wait="Please wait..." class="submit-button w-button"></div>
+              <div class="w-col w-col-4"><input type="email" class="jer_input w-input" maxlength="256" name="fields[email]" data-name="fields[email]" placeholder="Enter your email...." id="fields[email]" required=""></div>
+              <div class="w-col w-col-4"><select id="fields[_identifier]" name="fields[_identifier]" data-name="fields[_identifier]" required="" class="jer_input w-select"><option value="">Which describes you?</option><option value="programmer">Programmer</option><option value="pixel artist">Pixel Artist</option><option value="sound designer">Sound Designer</option><option value="tester">QA Tester</option><option value="writer">Writer</option><option value="other">Other</option></select></div>
+              <div class="w-col w-col-4"><input type="submit" value="Get Weekly Articles" data-wait="Please wait..." class="submit-button w-button"></div>
             </div>
           </form>
           <div class="success-message w-form-done">
