@@ -90,7 +90,7 @@ add_action( 'template_redirect', 'gamefeelideas_edd_empty_cart_redirect' );
 
 
 function gamefeelideas_disable_admin_bar() {
-    if (current_user_can('subscriber')) {
+    if (current_user_can('Subscriber' || 'EDD Subscriber')) {
         show_admin_bar(false);
     }
 }
