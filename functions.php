@@ -89,24 +89,24 @@ add_action( 'template_redirect', 'gamefeelideas_edd_empty_cart_redirect' );
 
 
 
-function gamefeelideas_disable_admin_bar() {
-    if (current_user_can('Subscriber' || 'EDD Subscriber')) {
-        show_admin_bar(false);
-    }
-}
+// function gamefeelideas_disable_admin_bar() {
+//     if (current_user_can('Subscriber' || 'EDD Subscriber')) {
+//         show_admin_bar(false);
+//     }
+// }
 
-add_action('admin_init', 'gamefeelideas_disable_admin_bar');
+// add_action('admin_init', 'gamefeelideas_disable_admin_bar');
 
 
 
-function gamefeelideas_disable_dashboard() {
-    if (!is_user_logged_in()) {
-        return null;
-    }
-    if (!current_user_can('administrator') && is_admin()) {
-        wp_redirect(home_url());
-        exit;
-    }
-}
+// function gamefeelideas_disable_dashboard() {
+//     if (!is_user_logged_in()) {
+//         return null;
+//     }
+//     if (!current_user_can('administrator') && is_admin()) {
+//         wp_redirect(home_url());
+//         exit;
+//     }
+// }
 
-add_action('admin_init', 'gamefeelideas_disable_dashboard');
+// add_action('admin_init', 'gamefeelideas_disable_dashboard');
