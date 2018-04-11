@@ -87,9 +87,12 @@ function gamefeelideas_edd_empty_cart_redirect() {
 }
 add_action( 'template_redirect', 'gamefeelideas_edd_empty_cart_redirect' );
 
-add_action('set_current_user', 'gamefeelideas_hide_admin_bar');
-function gamefeelideas_hide_admin_bar() {
-  if (!current_user_can('edit_posts')) {
-    show_admin_bar(false);
-  }
+
+
+function gamefeelideas_disable_admin_bar() {
+    if (current_user_can('subscriber')) {
+        show_admin_bar(false);
+    }
 }
+
+add_action('admin_init', 'gamefeelideas_disable_admin_bar');
