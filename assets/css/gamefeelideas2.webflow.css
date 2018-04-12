@@ -17,7 +17,8 @@ h2 {
 
 p {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
+  line-height: 1.6em;
 }
 
 ul {
