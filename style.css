@@ -9,10 +9,17 @@ Text Domain: jerementor
 Tags: epic blog
 */
 
+
+.jer_meta_categories > a {
+  margin-right: 20px;
+  color: #0071a7;
+  text-decoration: none;
+}
+
 #edd_profile_address_fieldset{
     display: none;
 }
-in
+
 /*edd login*/
 input#edd_login_submit {
     width: 100%;
