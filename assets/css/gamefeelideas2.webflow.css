@@ -266,6 +266,41 @@ blockquote {
   font-weight: 400;
 }
 
+.jer_screencast_header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0071a7;
+  color: #222;
+  font-size: 1.999em;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: left;
+}
+
+.jer_screencast_sales_header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0071a7;
+  color: #222;
+  font-size: 1.999em;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.jer_buy_now {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.jer_sales_disclaimer {
+  color: #acacac;
+  font-size: 16px;
+}
+
 @media (max-width: 991px) {
   .section-20.section-light {
     display: block;
@@ -281,6 +316,12 @@ blockquote {
     padding-left: 20px;
   }
   .jer_home_header {
+    margin-bottom: 20px;
+  }
+  .jer_screencast_header {
+    margin-bottom: 20px;
+  }
+  .jer_screencast_sales_header {
     margin-bottom: 20px;
   }
 }
@@ -302,6 +343,14 @@ blockquote {
     align-items: center;
   }
   .jer_home_header {
+    margin-bottom: 20px;
+    font-size: 1.444em;
+  }
+  .jer_screencast_header {
+    margin-bottom: 20px;
+    font-size: 1.444em;
+  }
+  .jer_screencast_sales_header {
     margin-bottom: 20px;
     font-size: 1.444em;
   }
