@@ -29,8 +29,8 @@ get_header();
     
 </p>
 <!--Screencast Button-->
-<?php if (get_field('screencast_button')) :?>
-    <a href="<?php the_field('screencast_button') ?>" class="jer_button w-button">💬 Leave a Comment in the Community</a>
+<?php if (get_field('screencast_button_url')) :?>
+    <a href="<?php the_field('screencast_button_url') ?>" class="jer_button w-button"><?php the_field('screencast_button_text') ?></a>
 <?php endif; ?>             
         
 </div>
