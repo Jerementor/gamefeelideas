@@ -2,7 +2,6 @@
 
 /**
  * The template for displaying all screencasts
- * @package WPShipyard
  * @since 1.0
  */
 
@@ -11,7 +10,7 @@ get_header();
 ?>
 <!--Using SINGLE-SCREENCAST-->
 <!--Screencast Video-->
-<div class="w-video w-embed">
+<div style="padding-top:56.17021276595745%" class="w-video w-embed">
     <?php if (get_field('screencast_video')) :?>
         <div class="embed-container">
             <?php the_field('screencast_video'); ?> 
