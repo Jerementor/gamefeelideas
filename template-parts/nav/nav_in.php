@@ -20,7 +20,7 @@
   );
   
   $find = array('><a', '<li');
-  $replace = array('', '<a class="jer_nav_link"');
+  $replace = array('', '<a class="jer_nav_link w-nav-link"');
   
   echo str_replace($find, $replace, wp_nav_menu( $defaults ));
 

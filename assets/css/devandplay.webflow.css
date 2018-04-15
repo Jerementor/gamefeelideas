@@ -43,14 +43,11 @@ blockquote {
   line-height: 1.6em;
 }
 
-.section-20 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 50vh;
-  padding-top: 80px;
-  padding-bottom: 80px;
+.section-60 {
+  display: block;
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -62,17 +59,9 @@ blockquote {
   color: #000;
 }
 
-.section-20.section-light {
-  display: block;
-  min-height: 100vh;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #fff;
-}
-
 .jer_640 {
   display: block;
-  width: 70%;
+  width: 72%;
   margin-right: auto;
   margin-left: auto;
   float: none;
@@ -132,17 +121,23 @@ blockquote {
 }
 
 .jer_nav_link {
-  margin-right: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: #979797;
-  font-size: 17px;
+  color: #ececec;
+  font-size: 14px;
+  font-weight: 400;
   text-transform: none;
 }
 
 .jer_nav_link:hover {
   color: #0071a7;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.jer_nav_link.w--current {
+  color: #ececec;
 }
 
 .jer_nav_link.w--current:hover {
@@ -156,7 +151,6 @@ blockquote {
 }
 
 .jer_text {
-  margin-top: 20px;
   margin-bottom: 20px;
   color: #707070;
   font-weight: 300;
@@ -237,32 +231,9 @@ blockquote {
   text-align: center;
 }
 
-.jer_pricing_main {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #fafafc;
-  text-align: center;
-}
-
-.jer_pricing_header {
-  margin-bottom: 20px;
-  border-bottom: 2px solid #0071a7;
-}
-
-.jer_pricing_list {
-  margin-top: 19px;
-  margin-bottom: 40px;
-  list-style-type: none;
-}
-
-.jer_price {
-  font-weight: 600;
-}
-
 .game_logo {
-  color: #0071a7;
+  margin-top: 20px;
+  color: #fff;
   font-weight: 400;
 }
 
@@ -278,18 +249,6 @@ blockquote {
   text-align: left;
 }
 
-.jer_screencast_sales_header {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #0071a7;
-  color: #222;
-  font-size: 1.999em;
-  line-height: 1em;
-  font-weight: 400;
-  text-align: center;
-}
-
 .jer_buy_now {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -301,12 +260,23 @@ blockquote {
   font-size: 16px;
 }
 
+.dap_navbar {
+  border-bottom: 1px solid #000;
+  background-color: #131313;
+}
+
 @media (max-width: 991px) {
-  .section-20.section-light {
-    display: block;
-  }
   .jer_640 {
     width: auto;
+  }
+  .menu-button {
+    color: #fff;
+  }
+  .menu-button.w--open {
+    background-color: transparent;
+  }
+  .nav-menu {
+    background-color: #0f0f0f;
   }
 }
 
@@ -321,36 +291,14 @@ blockquote {
   .jer_screencast_header {
     margin-bottom: 20px;
   }
-  .jer_screencast_sales_header {
-    margin-bottom: 20px;
-  }
 }
 
 @media (max-width: 479px) {
-  .section-20.section-light {
-    display: block;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
   .jer_home_header {
     margin-bottom: 20px;
     font-size: 1.444em;
   }
   .jer_screencast_header {
-    margin-bottom: 20px;
-    font-size: 1.444em;
-  }
-  .jer_screencast_sales_header {
     margin-bottom: 20px;
     font-size: 1.444em;
   }
