@@ -12,7 +12,7 @@ get_header();
 <div class="section-60 section-blue">
   <div class="w-container">
     <h1 class="jer_post_header_inverse"><?php wp_title(''); ?></h1>
-    <div class="jer_post_sub"><?php the_excerpt(); ?></div>
+    <p class="jer_post_sub"><?php the_excerpt(); ?></p>
   </div>
 </div>
 <!--end section 80-->
