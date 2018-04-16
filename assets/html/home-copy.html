@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Mon Apr 16 2018 19:18:18 GMT+0000 (UTC)  -->
-<html data-wf-page="5acadfcd6519058dd251ac16" data-wf-site="5acadfcd65190549fb51ac15">
+<html data-wf-page="5ad408af1dee892ebf7534ea" data-wf-site="5acadfcd65190549fb51ac15">
 <head>
   <meta charset="utf-8">
   <title>Dev and Play</title>
@@ -17,7 +17,7 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
-<body>
+<body class="body">
   <div data-collapse="medium" data-animation="default" data-duration="400" class="dap_navbar w-nav">
     <a href="index.html" class="w-nav-brand">
       <h3 class="game_logo">dev <em class="italic-text">and</em> play</h3>
@@ -27,45 +27,31 @@
       <div class="w-icon-nav-menu"></div>
     </div>
   </div>
-  <div class="section-80 section-blue">
-    <div class="w-container">
-      <h1 class="jer_home_header">Hello! I&#x27;m Jeremy Alexander. I help developers add more <em>impact</em> to their games.</h1>
-      <div class="jer_sub">Next Article Goes Out <em class="italic-text-2">Tuesday, 9:30am EST</em>. Don&#x27;t Miss It! Sign Up Below.</div>
-      <div class="w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" method="post" data-drip-embedded-form="209451262">
-          <div class="w-row">
-            <div class="w-col w-col-4"><input type="email" class="jer_input w-input" maxlength="256" name="fields[email]" data-name="fields[email]" placeholder="Enter your email...." id="fields[email]" required=""></div>
-            <div class="w-col w-col-4"><select id="fields[_identifier]" name="fields[_identifier]" data-name="fields[_identifier]" required="" class="jer_selects w-select"><option value="">Which describes you?</option><option value="programmer">Programmer</option><option value="pixel artist">Pixel Artist</option><option value="sound designer">Sound Designer</option><option value="tester">QA Tester</option><option value="writer">Writer</option><option value="other">Other</option></select></div>
-            <div class="w-col w-col-4"><input type="submit" value="Get Weekly Articles" data-wait="Please wait..." class="submit-button w-button"></div>
-          </div>
-        </form>
-        <div class="success-message w-form-done">
-          <div>Thank you! Your submission has been received!</div>
-        </div>
-        <div class="error-message w-form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section-darkgrey">
-    <div class="w-container">
-      <div class="w-row">
-        <div class="column-2 w-col w-col-3"><img src="images/gms_photo.png" width="313" srcset="images/gms_photo-p-500.png 500w, images/gms_photo-p-800.png 800w, images/gms_photo-p-1080.png 1080w, images/gms_photo-p-1600.png 1600w, images/gms_photo-p-2000.png 2000w, images/gms_photo.png 6312w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 313px, (max-width: 991px) 167px, 220px" class="gms_image"></div>
-        <div class="column w-col w-col-3"><img src="images/C3logo-monochrome-darkBGtransparent-RGB-128px.png" width="81" class="construct_image"></div>
-        <div class="column-3 w-col w-col-3"><img src="images/unity-master-white.png" width="193" srcset="images/unity-master-white-p-500.png 500w, images/unity-master-white-p-800.png 800w, images/unity-master-white-p-1080.png 1080w, images/unity-master-white-p-1600.png 1600w, images/unity-master-white-p-2000.png 2000w, images/unity-master-white.png 3000w" sizes="(max-width: 479px) 88vw, (max-width: 767px) 193px, (max-width: 991px) 167px, 193px" class="unity_image"></div>
-        <div class="column-4 w-col w-col-3"><img src="images/logo_white_512px.png" width="225" class="godot_image"></div>
-      </div>
-    </div>
-  </div>
   <div class="section-60">
     <div class="w-container">
       <div class="jer_640">
+        <h1 class="jer_home_og">Hello! I&#x27;m Jeremy Alexander. I help developers add more <em>impact</em> to their games.</h1>
         <div class="w-row">
           <div class="w-col w-col-10">
-            <p>Stop focusing on programming and start adding tiny details that make your game pop! Get new articles each week that will help you enhance your gameplay without losing hours of development time.</p>
+            <div class="jer_home_sub">Stop focusing solely on programming and start adding tiny details that make your game pop! Get new articles each week that will help you enhance your gameplay without losing hours of development time.</div>
           </div>
-          <div class="w-col w-col-2"><img src="images/jer3.jpg" width="168" class="jer_avatar"></div>
+          <div class="w-col w-col-2"><img src="images/jer3.jpg" width="139" class="jer_avatar"></div>
+        </div>
+        <div class="jer_text">Next article goes out: <em>Tuesday at 9:30am</em></div>
+        <div class="w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="post" data-drip-embedded-form="209451262">
+            <div class="w-row">
+              <div class="w-col w-col-4"><input type="email" class="jer_input w-input" maxlength="256" name="fields[email]" data-name="fields[email]" placeholder="Enter your email...." id="fields[email]" required=""></div>
+              <div class="w-col w-col-4"><select id="fields[_identifier]" name="fields[_identifier]" data-name="fields[_identifier]" required="" class="jer_input w-select"><option value="">Which describes you?</option><option value="programmer">Programmer</option><option value="pixel artist">Pixel Artist</option><option value="sound designer">Sound Designer</option><option value="tester">QA Tester</option><option value="writer">Writer</option><option value="other">Other</option></select></div>
+              <div class="w-col w-col-4"><input type="submit" value="Get Weekly Articles" data-wait="Please wait..." class="submit-button w-button"></div>
+            </div>
+          </form>
+          <div class="success-message w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="error-message w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
         </div>
         <blockquote>&quot;Jeremy has some of the most comprehensive and succinct tutorials out there! As a pixel artist who has wanted to make my own games for a long time–but with no coding experience–Jeremy&#x27;s courses helped me gain the confidence I needed to make my own art come to life!&quot;<br><br><span class="jer_bq_name">Sandy Gordon (Pixel Artist)</span></blockquote>
       </div>

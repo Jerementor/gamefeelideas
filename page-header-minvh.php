@@ -1,7 +1,7 @@
 <?php 
 /**
  * The template for displaying all pages
- * Template Name: Page W/ Header
+ * Template Name: Page W/ Header & (MINVH)
  *
  * @since 1.0
  */
@@ -12,7 +12,7 @@ get_header();
     <h1 class="jer_post_header_inverse"><?php wp_title(''); ?></h1>
   </div>
 </div>
-
+<div class="section-60 section-minvh">
 <?php 
 if ( have_posts() ) {
 	while ( have_posts() ) {
@@ -23,5 +23,5 @@ if ( have_posts() ) {
 	} // end while
 } // end if
 ?>
-
+</div>
 <?php get_footer(); ?>
