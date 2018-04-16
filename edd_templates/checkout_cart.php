@@ -5,13 +5,12 @@
 
 global $post; ?>
 
-<div class="jer_640">
 <table id="edd_checkout_cart" <?php if ( ! edd_is_ajax_disabled() ) { echo 'class="ajaxed"'; } ?>>
 	<thead>
 		<tr class="edd_cart_header_row">
 			<?php do_action( 'edd_checkout_table_header_first' ); ?>
-			<th class="edd_cart_item_name"><?php _e( 'Item Name', 'easy-digital-downloads' ); ?></th>
-			<th class="edd_cart_item_price"><?php _e( 'Item Price', 'easy-digital-downloads' ); ?></th>
+			<th class="edd_cart_item_name"><?php _e( 'Name', 'easy-digital-downloads' ); ?></th>
+			<th class="edd_cart_item_price"><?php _e( 'Price', 'easy-digital-downloads' ); ?></th>
 			<th class="edd_cart_actions"><?php _e( 'Actions', 'easy-digital-downloads' ); ?></th>
 			<?php do_action( 'edd_checkout_table_header_last' ); ?>
 		</tr>
@@ -134,4 +133,4 @@ global $post; ?>
 	</tfoot>
 </table>
 		
-	</div>
+
