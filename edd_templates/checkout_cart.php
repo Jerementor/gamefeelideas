@@ -4,8 +4,7 @@
  */
 
 global $post; ?>
-<div class="section-60 section-grey combo-minvh">
-<div class="w-container">
+
 <div class="jer_640">
 <table id="edd_checkout_cart" <?php if ( ! edd_is_ajax_disabled() ) { echo 'class="ajaxed"'; } ?>>
 	<thead>
@@ -136,5 +135,3 @@ global $post; ?>
 </table>
 		
 	</div>
-</div>
-</div>
