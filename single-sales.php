@@ -9,13 +9,14 @@
 get_header(); 
 
 ?>
-<div class="section-60 section-blue">
-  <div class="w-container">
-    <h1 class="jer_post_header_inverse"><?php wp_title(''); ?></h1>
+  <div class="section-80 section-blue">
+    <div class="w-container">
+      <h1 class="jer_screencast_pitch"><?php the_field('sales_headline'); ?></h1>
+    </div>
   </div>
-</div>
 <div class="section-60">
 <div class="w-container">
+<div class="jer_640">
 <!--Using SINGLE-SALE-->
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -50,6 +51,7 @@ get_header();
 
  <?php endwhile; ?>
 <?php endif; ?>  
+</div>
 </div>
 </div>
 

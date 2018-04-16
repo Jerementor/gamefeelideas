@@ -352,8 +352,8 @@ blockquote {
 }
 
 .section-darkgrey {
-  padding-top: 20px;
-  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #222;
 }
 
@@ -490,6 +490,19 @@ blockquote {
   font-weight: 400;
 }
 
+.jer_screencast_pitch {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0071a7;
+  font-family: Rubik, sans-serif;
+  color: #fff;
+  font-size: 3.2rem;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .jer_640 {
     width: auto;
@@ -572,6 +585,9 @@ blockquote {
   .jer_post_header_inverse {
     margin-bottom: 20px;
   }
+  .jer_screencast_pitch {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -596,6 +612,10 @@ blockquote {
     padding-bottom: 10px;
   }
   .jer_post_header_inverse {
+    margin-bottom: 20px;
+    font-size: 1.444em;
+  }
+  .jer_screencast_pitch {
     margin-bottom: 20px;
     font-size: 1.444em;
   }

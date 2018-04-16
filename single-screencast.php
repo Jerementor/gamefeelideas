@@ -10,6 +10,9 @@ get_header();
 ?>
 <!--Using SINGLE-SCREENCAST-->
 <!--Screencast Video-->
+<div class="section-60">
+<div class="w-container">
+<div class="jer_640">
 <div style="padding-top:56.17021276595745%" class="w-video w-embed">
     <?php if (get_field('screencast_video')) :?>
         <div class="embed-container">
@@ -33,6 +36,9 @@ get_header();
     <a href="<?php the_field('screencast_button_url') ?>" class="jer_button w-button"><?php the_field('screencast_button_text') ?></a>
 <?php endif; ?>             
         
+</div>
+</div>
+</div>
 </div>
 
 
