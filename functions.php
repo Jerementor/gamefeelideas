@@ -89,3 +89,10 @@ if (!current_user_can('manage_options')){
 }
 
 
+
+function devandplay_filter_excerpt ($post_excerpt) { 
+  $post_excerpt = '<p class="jer_post_sub">' . $post_excerpt . '</p>';
+  return $post_excerpt;
+}  
+
+add_filter ('get_the_excerpt','devandplay_filter_excerpt');
