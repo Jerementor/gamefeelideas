@@ -8,6 +8,12 @@ get_header();
 ?>
 
 <!-- Page.php -->
+<div class="section-60 section-blue">
+  <div class="w-container">
+    <h1 class="jer_post_header_inverse"><?php wp_title(''); ?></h1>
+  </div>
+</div>
+
 <div class="section-60 section-grey combo-minvh">
 <div class="w-container">
 <div class="jer_white_box"> 	
