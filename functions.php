@@ -96,3 +96,11 @@ function devandplay_filter_excerpt ($post_excerpt) {
 }  
 
 add_filter ('get_the_excerpt','devandplay_filter_excerpt');
+
+function devandplay_remove_p_on_pages() {
+       $pages = array(163);
+    if ( is_page($pages) ) {
+        remove_filter( 'the_content', 'wpautop' );
+    }
+}
+add_action( 'wp_head', 'devandplay_remove_p_on_pages' );
