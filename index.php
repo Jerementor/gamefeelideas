@@ -23,7 +23,7 @@ get_header();
       <?php if ( have_posts() ) : ?>
       	<?php while ( have_posts() ) : the_post(); ?>
       	    <li>
-         		    <?php the_title(sprintf('<a class="jer_post_link" href="%s" rel="bookmark">', esc_url(get_permalink() )), '</li>'); ?>
+         		    <?php the_title(sprintf('<a class="jer_post_link_c" href="%s" rel="bookmark">', esc_url(get_permalink() )), '</li>'); ?>
               </li>
           <?php endwhile; ?>
       <?php endif; ?>    		
