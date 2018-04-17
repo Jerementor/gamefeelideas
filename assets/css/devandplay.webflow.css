@@ -12,7 +12,7 @@ h1 {
   color: #222;
   font-size: 38px;
   line-height: 44px;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 h2 {
@@ -503,9 +503,9 @@ blockquote {
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 2px none #0071a7;
-  font-family: Rubik, sans-serif;
+  font-family: 'News Cycle', sans-serif;
   color: #fff;
-  font-size: 3.6rem;
+  font-size: 3.4rem;
   line-height: 1em;
   font-weight: 400;
   text-align: center;
@@ -530,6 +530,7 @@ blockquote {
 
 .tab-link {
   width: 25%;
+  margin-right: -6px;
   padding-top: 17px;
   padding-bottom: 17px;
   border-right: 1px solid #133546;
@@ -540,7 +541,6 @@ blockquote {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
-  margin-right: -6px;
 }
 
 .tab-link:hover {
@@ -553,6 +553,16 @@ blockquote {
 
 .jer_watch_screencast {
   text-align: center;
+}
+
+.jer_button_center {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.jer_post_image {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 991px) {
