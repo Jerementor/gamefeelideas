@@ -10,9 +10,8 @@ get_header();
 ?>
 <!--Using SINGLE-SCREENCAST-->
 <!--Screencast Video-->
-<div class="section-60">
+<div class="section-video">
 <div class="w-container">
-<div class="jer_640">
 <div style="padding-top:56.17021276595745%" class="w-video w-embed">
     <?php if (get_field('screencast_video')) :?>
         <div class="embed-container">
@@ -20,6 +19,12 @@ get_header();
         </div>
     <?php endif; ?>          
 </div>
+</div>
+</div>
+
+<div class="section-60">
+<div class="w-container">
+<div class="jer_640">
 <!--Screencast Title-->
 <h1 class="jer_screencast_header"><?php wp_title(''); ?></h1>
 <!--Screencast Description-->
@@ -39,9 +44,8 @@ get_header();
 </div>
 </div>
 </div>
-</div>
+
 
 
 <?php get_footer(); ?>
-
 

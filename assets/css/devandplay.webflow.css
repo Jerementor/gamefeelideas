@@ -516,6 +516,10 @@ blockquote {
   color: #00334b;
 }
 
+.section-video {
+  background-color: #222;
+}
+
 @media (max-width: 991px) {
   .jer_640 {
     width: auto;
