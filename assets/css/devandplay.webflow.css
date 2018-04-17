@@ -577,6 +577,9 @@ blockquote {
     margin-right: 0px;
     margin-left: 0px;
   }
+  .tab-link {
+    width: auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -638,6 +641,9 @@ blockquote {
   }
   .jer_screencast_headline {
     margin-bottom: 20px;
+  }
+  .tab-link {
+    width: 100%;
   }
 }
 
