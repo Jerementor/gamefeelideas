@@ -98,7 +98,7 @@ function devandplay_filter_excerpt ($post_excerpt) {
 add_filter ('get_the_excerpt','devandplay_filter_excerpt');
 
 function devandplay_remove_p_on_pages() {
-       $pages = array(163);
+       $pages = array(163, "/sales", "/join-community");
     if ( is_page($pages) ) {
         remove_filter( 'the_content', 'wpautop' );
     }
