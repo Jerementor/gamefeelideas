@@ -24,7 +24,7 @@ get_header();
 
 <div class="section-60">
 <div class="w-container">
-<div class="jer_640">
+
 <!--Screencast Title-->
 <h1 class="jer_screencast_header"><?php wp_title(''); ?></h1>
 <!--Screencast Description-->
@@ -41,7 +41,7 @@ get_header();
     <a href="<?php the_field('screencast_button_url') ?>" class="jer_button w-button"><?php the_field('screencast_button_text') ?></a>
 <?php endif; ?>             
         
-</div>
+
 </div>
 </div>
 
