@@ -11,7 +11,7 @@ get_header();
 ?>
   <div class="section-80 section-blue">
     <div class="w-container">
-      <h1 class="jer_screencast_pitch"><?php the_field('sales_headline'); ?></h1>
+      <h1 class="jer_screencast_headline"><?php the_field('sales_headline'); ?></h1>
     </div>
   </div>
 <div class="section-60">
