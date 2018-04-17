@@ -9,8 +9,8 @@ Text Domain: jerementor
 Tags: epic blog
 */
 
-.jer_button_center {
-    text-align: center;
+.jer_center_button {
+    text-align: center !important;
 }
 
 .jer_meta_categories > a {
