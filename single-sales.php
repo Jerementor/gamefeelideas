@@ -12,6 +12,11 @@ get_header();
   <div class="section-80 section-blue">
     <div class="w-container">
       <h1 class="jer_screencast_headline"><?php the_field('sales_headline'); ?></h1>
+      <div class="jer_center_button">
+        <?php if (get_field('sales_shortcode')) :?>
+             <?php the_field('sales_shortcode'); ?> 
+        <?php endif; ?>  
+      </div>
     </div>
   </div>
 <div class="section-60">
