@@ -562,7 +562,7 @@ blockquote {
   background-color: #0a3e57;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
-  color: #fff;
+  color: hsla(0, 0%, 100%, .75);
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -570,6 +570,7 @@ blockquote {
 
 .tab-link:hover {
   background-color: #093042;
+  color: #fff;
 }
 
 .tab-link.w--current {
@@ -632,6 +633,14 @@ blockquote {
 }
 
 @media (max-width: 767px) {
+  .section-60 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .section-60.section-blue {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .jer_640 {
     padding-right: 20px;
     padding-left: 20px;
@@ -688,15 +697,35 @@ blockquote {
   .jer_post_header_inverse {
     margin-bottom: 20px;
   }
+  .section-80.section-blue {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .jer_screencast_headline {
     margin-bottom: 20px;
   }
   .tab-link {
     width: 100%;
   }
+  .section-140.section-primary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 @media (max-width: 479px) {
+  .section-60 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .section-60.section-grey.combo-minvh {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .section-60.section-minvh {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .jer_home_header {
     margin-bottom: 20px;
     font-size: 1.444em;
@@ -720,6 +749,10 @@ blockquote {
   .jer_post_header_inverse {
     margin-bottom: 20px;
     font-size: 1.444em;
+  }
+  .section-80.section-blue {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .jer_screencast_headline {
     margin-bottom: 20px;
