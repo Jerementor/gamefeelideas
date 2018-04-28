@@ -585,6 +585,10 @@ blockquote {
   background-color: #0a3e57;
 }
 
+.section-primary {
+  background-color: #0a3e57;
+}
+
 @media (max-width: 991px) {
   .jer_640 {
     width: auto;
