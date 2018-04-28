@@ -50,6 +50,18 @@ p {
   line-height: 1.5em;
 }
 
+a {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: #0a3e57;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #036c9e;
+}
+
 ul {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -528,7 +540,8 @@ blockquote {
   transition: color 200ms ease;
   color: #0071a7;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .jer_post_link_c:hover {
